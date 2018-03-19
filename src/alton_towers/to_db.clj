@@ -108,7 +108,7 @@
                      3 "Repeat"))
           (jdbc/with-db-transaction [tx db/db]
             (doseq [r rides]
-              r)))))
+              (db/add-ride r))))))
     in-chan))
 
 (defn process-files
