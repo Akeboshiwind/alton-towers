@@ -2,7 +2,7 @@
   (:require [hugsql.core :as hugsql]
             [environ.core :refer [env]]))
 
-(let [db-host (or (env :db-host) "192.168.0.10")
+(let [db-host (or (env :db-host) "localhost")
       db-port (or (env :db-port) 3306)
       db-name (or (env :db-name) "alton-towers")]
   (def db {:classname "com.mysql.jdbc.Driver" ; must be in classpath

@@ -2,16 +2,7 @@
 
 Scrapes the alton towers queue times for all the rides and stores them in a database.
 
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar alton-towers-0.1.0-standalone.jar [args]
-
+Docker link:
 
 ## Environment variables
 
