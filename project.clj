@@ -1,4 +1,4 @@
-(defproject alton-towers "0.1.6"
+(defproject alton-towers "0.1.7"
   :description "Scrapes the alton towers queue times for all the rides and stores them in a database."
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
